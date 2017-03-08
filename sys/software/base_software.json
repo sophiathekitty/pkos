@@ -1,0 +1,197 @@
+{
+    "entries": [
+        "category",
+        "Base Software Packages",
+        "install_folder",
+        "0:/pkOS",
+        "system_file",
+        "/sys/software/base_software.json",
+        "backup_folder",
+        "0:/pkOS/sys/backups",
+        "install_files",
+        {
+            "items": [
+                "/sys/systems/lighting.json",
+                "/sys/systems/cargo.json",
+                "/sys/software/base/base.json",
+            ],
+            "$type": "kOS.Safe.Encapsulation.ListValue"
+        },
+		"events",
+		{
+			"entries": [
+		
+				"UPDATE",
+				{
+					"items": [
+						{
+							"items": [
+								"/update.ks",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				
+				"EXTERIORLIGHTS",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Exteriorlight",
+								"toggle",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"GARAGELIGHTS",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Garage",
+								"toggle",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Garagelights",
+								"toggle",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+
+				"EXTERIORLIGHTS_ON",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Exteriorlight",
+								"on",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"GARAGELIGHTS_ON",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Garage",
+								"on",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Garagelights",
+								"on",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				
+				"EXTERIORLIGHTS_OFF",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Exteriorlight",
+								"off",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"GARAGELIGHTS_OFF",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Garage",
+								"off",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Garagelights",
+								"off",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				
+				"GARAGEDOORS_TOGGLE",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/cargo/toggle_door_group.ks",
+								"Garage",
+								"toggle",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"GARAGEDOORS_OPEN",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/cargo/toggle_door_group.ks",
+								"Garage",
+								"open",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"GARAGEDOORS_CLOSE",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/cargo/toggle_door_group.ks",
+								"Garage",
+								"close",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				
+				
+			],
+			"$type": "kOS.Safe.Encapsulation.Lexicon"
+		}		
+    ],
+    "$type": "kOS.Safe.Encapsulation.Lexicon"
+}

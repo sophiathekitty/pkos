@@ -1,0 +1,53 @@
+{
+    "entries": [
+        "category",
+        "Cargo Bay Manager",
+        "install_folder",
+        "0:/pkOS",
+        "system_file",
+        "/sys/systems/cargo.json",
+        "backup_folder",
+        "0:/pkOS/sys/backups",
+        "install_files",
+        {
+            "items": [
+                "/sys/cargo/toggle_door_group.ks",
+            ],
+            "$type": "kOS.Safe.Encapsulation.ListValue"
+        },
+        "events",
+        {
+		    "entries": [
+				"DOORS_OPEN",
+				{
+					"items": [
+						"/sys/cargo/toggle_door_group.ks",
+						"all",
+						"open",
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"DOORS_CLOSE",
+				{
+					"items": [
+						"/sys/cargo/toggle_door_group.ks",
+						"all",
+						"close",
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"DOORS_TOGGLE",
+				{
+					"items": [
+						"/sys/cargo/toggle_door_group.ks",
+						"all",
+						"toggle",
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				}
+            ],
+            "$type": "kOS.Safe.Encapsulation.Lexicon"
+        }
+    ],
+    "$type": "kOS.Safe.Encapsulation.Lexicon"
+}

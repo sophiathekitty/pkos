@@ -1,0 +1,62 @@
+{
+    "entries": [
+        "category",
+        "Lighting Manager",
+        "install_folder",
+        "0:/pkOS",
+        "system_file",
+        "/sys/systems/lighting.json",
+        "backup_folder",
+        "0:/pkOS/sys/backups",
+        "install_files",
+        {
+            "items": [
+                "/sys/electrical/toggle_light_group.ks",
+            ],
+            "$type": "kOS.Safe.Encapsulation.ListValue"
+        },
+        "events",
+        {
+		    "entries": [
+				"LIGHTS_ON",
+				{
+					"items": [
+						"/sys/electrical/toggle_light_group.ks",
+						"all",
+						"on",
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"LIGHTS_OFF",
+				{
+					"items": [
+						"/sys/electrical/toggle_light_group.ks",
+						"all",
+						"off",
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"LIGHTS_TOGGLE",
+				{
+					"items": [
+						"/sys/electrical/toggle_light_group.ks",
+						"all",
+						"toggle",
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				}
+				"POWER_LOW",
+				{
+					"items": [
+						"/sys/electrical/toggle_light_group.ks",
+						"all",
+						"off",
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				}
+            ],
+            "$type": "kOS.Safe.Encapsulation.Lexicon"
+        }
+    ],
+    "$type": "kOS.Safe.Encapsulation.Lexicon"
+}

@@ -1,0 +1,51 @@
+{
+    "entries": [
+        "category",
+        "Base Manager",
+        "install_folder",
+        "0:/pkOS",
+        "system_file",
+        "/sys/software/base/base.json",
+        "backup_folder",
+        "0:/pkOS/sys/backups",
+        "install_files",
+        {
+            "items": [
+                "/update.ks",
+            ],
+            "$type": "kOS.Safe.Encapsulation.ListValue"
+        },
+        "action_inputs",
+        {
+		    "entries": [
+                "AG21",
+				"UPDATE",
+				
+                "AG13",
+				"GARAGELIGHTS",
+                "AG12",
+				"EXTERIORLIGHTS",
+                "AG11",
+				"GARAGEDOORS_TOGGLE",
+
+                "AG14",
+				"GARAGEDOORS_OPEN",
+                "AG17",
+				"GARAGEDOORS_CLOSE",
+				
+                "AG15",
+				"EXTERIORLIGHTS_ON",
+                "AG16",
+				"EXTERIORLIGHTS_OFF",
+				
+                "AG18",
+				"GARAGELIGHTS_ON",
+                "AG19",
+				"GARAGELIGHTS_OFF",
+				
+            ],
+            "$type": "kOS.Safe.Encapsulation.Lexicon"
+        }
+    ],
+    "$type": "kOS.Safe.Encapsulation.Lexicon"
+}

@@ -1,0 +1,34 @@
+{
+    "entries": [
+        "category",
+        "Rover Manager",
+        "install_folder",
+        "0:/pkOS",
+        "system_file",
+        "/sys/software/rover/rover.json",
+        "backup_folder",
+        "0:/pkOS/sys/backups",
+        "install_files",
+        {
+            "items": [
+                "/main.ks",
+            ],
+            "$type": "kOS.Safe.Encapsulation.ListValue"
+        },
+        "action_inputs",
+        {
+		    "entries": [
+                "AG21",
+				"UPDATE",
+                "AG13",
+				"DOMELIGHTS",
+                "AG12",
+				"FLOODLIGHTS",
+                "AG11",
+				"HEADLIGHTS",
+            ],
+            "$type": "kOS.Safe.Encapsulation.Lexicon"
+        }
+    ],
+    "$type": "kOS.Safe.Encapsulation.Lexicon"
+}

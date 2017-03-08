@@ -1,0 +1,20 @@
+{
+    "entries": [
+        "category",
+        "Bomber Software Packages",
+        "install_folder",
+        "0:/pkOS",
+        "system_file",
+        "/sys/software/bomber_software.json",
+        "backup_folder",
+        "0:/pkOS/sys/backups",
+        "install_files",
+        {
+            "items": [
+                "/sys/software/bomber/bomber.json",
+            ],
+            "$type": "kOS.Safe.Encapsulation.ListValue"
+        }
+    ],
+    "$type": "kOS.Safe.Encapsulation.Lexicon"
+}

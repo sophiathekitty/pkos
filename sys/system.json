@@ -1,0 +1,32 @@
+{
+    "entries": [
+        "category",
+        "pkOS",
+        "auto_run",
+        "/main.ks",
+        "install_folder",
+        "0:/pkOS",
+        "system_file",
+        "/sys/system.json",
+        "backup_folder",
+        "0:/pkOS/sys/backups",
+        "install_files",
+        {
+            "items": [
+                "/sys/io/display_parts_info.ks",
+                "/sys/utils/sys_installer.ks",
+                "/sys/utils/sys_update.ks",
+                "/sys/utils/do_event.ks",
+                "/sys/utils/do_function.ks",
+                "/sys/utils/background_loop.ks",
+                "/sys/utils/subship_parts.ks",
+                "/sys/io/display.ks",
+                "/sys/io/keyboard_input.ks",
+                "/main.ks",
+                "/update.ks",								
+            ],
+            "$type": "kOS.Safe.Encapsulation.ListValue"
+        }
+    ],
+    "$type": "kOS.Safe.Encapsulation.Lexicon"
+}

@@ -1,0 +1,172 @@
+{
+    "entries": [
+        "category",
+        "Rover Software Packages",
+        "install_folder",
+        "0:/pkOS",
+        "system_file",
+        "/sys/software/rover_software.json",
+        "backup_folder",
+        "0:/pkOS/sys/backups",
+        "install_files",
+        {
+            "items": [
+                "/sys/systems/lighting.json",
+                "/sys/software/rover/rover.json",
+            ],
+            "$type": "kOS.Safe.Encapsulation.ListValue"
+        },
+		"events",
+		{
+			"entries": [
+		
+				
+				"UPDATE",
+				{
+					"items": [
+						{
+							"items": [
+								"/update.ks",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				
+				"DOMELIGHTS",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Domelight",
+								"toggle",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"HEADLIGHTS",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Headlight",
+								"toggle",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"FLOODLIGHTS",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Floodlight",
+								"toggle",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+
+				"DOMELIGHTS_ON",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Domelight",
+								"toggle",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"HEADLIGHTS_ON",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Headlight",
+								"toggle",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"FLOODLIGHTS_ON",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Floodlight",
+								"toggle",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+
+				"DOMELIGHTS_OFF",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Domelight",
+								"off",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"HEADLIGHTS_OFF",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Headlight",
+								"off",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				"FLOODLIGHTS_OFF",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/electrical/toggle_light_group.ks",
+								"Floodlight",
+								"off",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				
+				
+			],
+			"$type": "kOS.Safe.Encapsulation.Lexicon"
+		}		
+    ],
+    "$type": "kOS.Safe.Encapsulation.Lexicon"
+}

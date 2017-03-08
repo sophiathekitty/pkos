@@ -1,0 +1,36 @@
+{
+    "entries": [
+        "category",
+        "Bomb Bay Manager",
+        "install_folder",
+        "0:/pkOS",
+        "system_file",
+        "/sys/software/bomber/bomber.json",
+        "backup_folder",
+        "0:/pkOS/sys/backups",
+        "install_files",
+        {
+            "items": [
+                "/sys/weapons/bomb_bay_setup.ks",
+                "/sys/weapons/open_bomb_bays.ks",
+                "/sys/weapons/close_bomb_bays.ks",
+                "/sys/weapons/drop_next_bomb.ks",
+                "/sys/weapons/drop_bomb_sequence.ks"
+            ],
+            "$type": "kOS.Safe.Encapsulation.ListValue"
+        }
+        "action_inputs",
+        {
+		    "entries": [
+                "AG20",
+                "/sys/weapons/open_bomb_bays.ks",
+                "AG26",
+                "/sys/weapons/close_bomb_bays.ks",
+                "AG15",
+                "/sys/weapons/drop_bomb_sequence.ks"
+            ],
+            "$type": "kOS.Safe.Encapsulation.Lexicon"
+        }
+    ],
+    "$type": "kOS.Safe.Encapsulation.Lexicon"
+}
