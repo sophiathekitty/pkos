@@ -12,23 +12,37 @@
         {
             "items": [
                 "/sys/io/light_groups.ks",
+                "/sys/software/rover/io/header.ks",
             ],
             "$type": "kOS.Safe.Encapsulation.ListValue"
         },
 		
 		
-		"events",
+		"draw",
 		{
 			"entries": [
 		
-				"DRAW",
+				"HEADER",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/software/rover/io/header.ks",
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+				
+				"LIGHTS",
 				{
 					"items": [
 						{
 							"items": [
 								"/sys/io/light_groups.ks",
 								"Headlight",
-								0,3
+								59,0
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
 						},
@@ -36,7 +50,7 @@
 							"items": [
 								"/sys/io/light_groups.ks",
 								"Floodlight",
-								14,3
+								59,2
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
 						},
@@ -44,7 +58,7 @@
 							"items": [
 								"/sys/io/light_groups.ks",
 								"Domelight",
-								28,3
+								45,0
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
 						},

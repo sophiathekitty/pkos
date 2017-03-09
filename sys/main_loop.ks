@@ -3,6 +3,11 @@
 //-----------------------
 
 clearscreen.
+set blink_state to true.
+
+// Draw Header
+// ==========
+runpath("/sys/io/do_draw.ks","HEADER").
 
 set main_done to false.
 until main_done {
@@ -25,8 +30,7 @@ until main_done {
 	// if there's software see if it has a main_input events to fire....
 	// this is where the main input loop should be called....
 	//
-	runpath("/sys/utils/do_event.ks","DRAW").
-	
+	runpath("/sys/io/do_draw.ks","LIGHTS").
 	
 	// BACKGROUND_MONITORING
 	// ==========
@@ -36,4 +40,8 @@ until main_done {
 	//
 	runpath("/sys/utils/do_event.ks","BACKGROUND_MONITORING").
 	
+	if(blink_state)
+		set blink_state to false.
+	else
+		set blink_state to true.
 }

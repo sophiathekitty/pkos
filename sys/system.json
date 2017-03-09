@@ -19,7 +19,7 @@
                 "/sys/utils/do_event.ks",
                 "/sys/utils/do_function.ks",
                 "/sys/utils/subship_parts.ks",
-                "/sys/io/display.ks",
+                "/sys/io/do_draw.ks",
                 "/sys/io/keyboard_input.ks",
                 "/sys/main_loop.ks",
                 "/main.ks",

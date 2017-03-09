@@ -5,18 +5,42 @@
 parameter light_group is "all".
 parameter x is 0.
 parameter y is 0.
+parameter selected is false.
+parameter groups is true.
+parameter totals is false.
 
 // draw function
 function draw_light_indicator {
 	parameter lx.
 	parameter ly.
 	parameter state.
-	if(state = "all_on") 	// all on
-		print "+--(@)--------" AT(lx,ly).
-	if(state = "some_on") 	// some on
-		print "+--(O)--------" AT(lx,ly).
-	if(state = "none_on") 	// none on
-		print "+--( )--------" AT(lx,ly).
+	if(selected){
+		if(state = "all_on"){ 	// all on
+			if(blink_state)
+				print "+-[(@)]-------" AT(lx,ly).
+			else
+				print "+--(@)--------" AT(lx,ly).
+		}
+		if(state = "some_on"){ 	// some on
+			if(blink_state)
+				print "+-[(O)]-------" AT(lx,ly).
+			else
+				print "+--(O)--------" AT(lx,ly).
+		}
+		if(state = "none_on"){ 	// none on
+			if(blink_state)
+				print "+-[( )]-------" AT(lx,ly).
+			else
+				print "+--( )--------" AT(lx,ly).
+		}
+	} else {
+		if(state = "all_on") 	// all on
+			print "+-/(@)\-------" AT(lx,ly).
+		if(state = "some_on") 	// some on
+			print "+-/(O)\-------" AT(lx,ly).
+		if(state = "none_on") 	// none on
+			print "+-/( )\-------" AT(lx,ly).
+	}
 }
 
 if(light_group = "all"){
@@ -57,6 +81,7 @@ if(total_on = 0){
 	// all on...
 	draw_light_indicator(x,y,"all_on").
 }
-
-print "| " + light_group AT(x,y+1).
-print "| " + total_on + "/" + total_lights AT(x,y+2).
+if(groups)
+	print "| " + light_group AT(x,y+1).
+if(totals)
+	print "| " + total_on + "/" + total_lights AT(x,y+2).
