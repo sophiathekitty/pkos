@@ -82,6 +82,6 @@ if(total_on = 0){
 	draw_light_indicator(x,y,"all_on").
 }
 if(groups)
-	print "| " + light_group AT(x,y+1).
+	print "| " + light_group:PADRIGHT(12) AT(x,y+1).
 if(totals)
 	print "| " + total_on + "/" + total_lights AT(x,y+2).

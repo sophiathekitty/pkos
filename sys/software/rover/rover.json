@@ -42,7 +42,7 @@
 							"items": [
 								"/sys/io/light_groups.ks",
 								"Headlight",
-								59,0
+								1,5
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
 						},
@@ -50,7 +50,7 @@
 							"items": [
 								"/sys/io/light_groups.ks",
 								"Floodlight",
-								59,2
+								15,5
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
 						},
@@ -58,7 +58,7 @@
 							"items": [
 								"/sys/io/light_groups.ks",
 								"Domelight",
-								45,0
+								29,5
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
 						},
