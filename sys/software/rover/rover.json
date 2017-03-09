@@ -11,24 +11,53 @@
         "install_files",
         {
             "items": [
-                "/main.ks",
+                "/sys/io/light_groups.ks",
             ],
             "$type": "kOS.Safe.Encapsulation.ListValue"
         },
-        "action_inputs",
-        {
-		    "entries": [
-                "AG21",
-				"UPDATE",
-                "AG13",
-				"DOMELIGHTS",
-                "AG12",
-				"FLOODLIGHTS",
-                "AG11",
-				"HEADLIGHTS",
-            ],
-            "$type": "kOS.Safe.Encapsulation.Lexicon"
-        }
+		
+		
+		"events",
+		{
+			"entries": [
+		
+				"DRAW",
+				{
+					"items": [
+						{
+							"items": [
+								"/sys/io/light_groups.ks",
+								"Headlight",
+								0,3
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+						{
+							"items": [
+								"/sys/io/light_groups.ks",
+								"Floodlight",
+								14,3
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+						{
+							"items": [
+								"/sys/io/light_groups.ks",
+								"Domelight",
+								28,3
+							],
+							"$type": "kOS.Safe.Encapsulation.ListValue"
+						},
+					],
+					"$type": "kOS.Safe.Encapsulation.ListValue"
+				},
+
+		
+			],
+			"$type": "kOS.Safe.Encapsulation.Lexicon"
+		}
+		
+		
     ],
     "$type": "kOS.Safe.Encapsulation.Lexicon"
 }
