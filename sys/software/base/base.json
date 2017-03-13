@@ -11,7 +11,7 @@
         "install_files",
         {
             "items": [
-                "/update.ks",
+                "/update.ks"
             ],
             "$type": "kOS.Safe.Encapsulation.ListValue"
         },
@@ -41,7 +41,7 @@
                 "AG18",
 				"GARAGELIGHTS_ON",
                 "AG19",
-				"GARAGELIGHTS_OFF",
+				"GARAGELIGHTS_OFF"
 				
             ],
             "$type": "kOS.Safe.Encapsulation.Lexicon"

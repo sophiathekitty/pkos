@@ -12,7 +12,7 @@
         {
             "items": [
                 "/sys/systems/lighting.json",
-                "/sys/software/rover/rover.json",
+                "/sys/software/rover/rover.json"
             ],
             "$type": "kOS.Safe.Encapsulation.ListValue"
         },
@@ -41,10 +41,10 @@
 							"items": [
 								"/sys/electrical/toggle_light_group.ks",
 								"Domelight",
-								"toggle",
+								"toggle"
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
-						},
+						}
 					],
 					"$type": "kOS.Safe.Encapsulation.ListValue"
 				},
@@ -55,10 +55,10 @@
 							"items": [
 								"/sys/electrical/toggle_light_group.ks",
 								"Headlight",
-								"toggle",
+								"toggle"
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
-						},
+						}
 					],
 					"$type": "kOS.Safe.Encapsulation.ListValue"
 				},
@@ -69,10 +69,10 @@
 							"items": [
 								"/sys/electrical/toggle_light_group.ks",
 								"Floodlight",
-								"toggle",
+								"toggle"
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
-						},
+						}
 					],
 					"$type": "kOS.Safe.Encapsulation.ListValue"
 				},
@@ -84,10 +84,10 @@
 							"items": [
 								"/sys/electrical/toggle_light_group.ks",
 								"Domelight",
-								"toggle",
+								"toggle"
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
-						},
+						}
 					],
 					"$type": "kOS.Safe.Encapsulation.ListValue"
 				},
@@ -98,10 +98,10 @@
 							"items": [
 								"/sys/electrical/toggle_light_group.ks",
 								"Headlight",
-								"toggle",
+								"toggle"
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
-						},
+						}
 					],
 					"$type": "kOS.Safe.Encapsulation.ListValue"
 				},
@@ -112,10 +112,10 @@
 							"items": [
 								"/sys/electrical/toggle_light_group.ks",
 								"Floodlight",
-								"toggle",
+								"toggle"
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
-						},
+						}
 					],
 					"$type": "kOS.Safe.Encapsulation.ListValue"
 				},
@@ -127,10 +127,10 @@
 							"items": [
 								"/sys/electrical/toggle_light_group.ks",
 								"Domelight",
-								"off",
+								"off"
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
-						},
+						}
 					],
 					"$type": "kOS.Safe.Encapsulation.ListValue"
 				},
@@ -141,10 +141,10 @@
 							"items": [
 								"/sys/electrical/toggle_light_group.ks",
 								"Headlight",
-								"off",
+								"off"
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
-						},
+						}
 					],
 					"$type": "kOS.Safe.Encapsulation.ListValue"
 				},
@@ -155,13 +155,13 @@
 							"items": [
 								"/sys/electrical/toggle_light_group.ks",
 								"Floodlight",
-								"off",
+								"off"
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
-						},
+						}
 					],
 					"$type": "kOS.Safe.Encapsulation.ListValue"
-				},
+				}
 				
 				
 			],

@@ -11,8 +11,8 @@
         "install_files",
         {
             "items": [
-                "/sys/io/light_groups.ks",
-                "/sys/software/rover/io/header.ks",
+                "/sys/io/systems/light_groups.ks",
+                "/sys/software/rover/io/header.ks"
             ],
             "$type": "kOS.Safe.Encapsulation.ListValue"
         },
@@ -27,10 +27,10 @@
 					"items": [
 						{
 							"items": [
-								"/sys/software/rover/io/header.ks",
+								"/sys/software/rover/io/header.ks"
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
-						},
+						}
 					],
 					"$type": "kOS.Safe.Encapsulation.ListValue"
 				},
@@ -40,7 +40,7 @@
 					"items": [
 						{
 							"items": [
-								"/sys/io/light_groups.ks",
+								"/sys/io/systems/light_groups.ks",
 								"Headlight",
 								1,5
 							],
@@ -48,7 +48,7 @@
 						},
 						{
 							"items": [
-								"/sys/io/light_groups.ks",
+								"/sys/io/systems/light_groups.ks",
 								"Floodlight",
 								15,5
 							],
@@ -56,15 +56,15 @@
 						},
 						{
 							"items": [
-								"/sys/io/light_groups.ks",
+								"/sys/io/systems/light_groups.ks",
 								"Domelight",
 								29,5
 							],
 							"$type": "kOS.Safe.Encapsulation.ListValue"
-						},
+						}
 					],
 					"$type": "kOS.Safe.Encapsulation.ListValue"
-				},
+				}
 
 		
 			],

@@ -18,7 +18,7 @@
                 "/sys/weapons/drop_bomb_sequence.ks"
             ],
             "$type": "kOS.Safe.Encapsulation.ListValue"
-        }
+        },
         "action_inputs",
         {
 		    "entries": [
